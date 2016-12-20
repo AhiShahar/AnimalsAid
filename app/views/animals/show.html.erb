@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @animal.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @animal.description %>
+</p>
+
+<p>
+  <strong>Vidurl:</strong>
+  <%= @animal.vidURL %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @animal.URL %>
+</p>
+
+<p>
+  <strong>Totaldonation:</strong>
+  <%= @animal.totalDonation %>
+</p>
+
+<p>
+  <strong>Threatlevel:</strong>
+  <%= @animal.threatLevel %>
+</p>
+
+<%= link_to 'Edit', edit_animal_path(@animal) %> |
+<%= link_to 'Back', animals_path %>
